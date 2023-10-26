@@ -1,0 +1,87 @@
+
+.header {
+    background: url('tadoba-national-park5.jpg');
+    background-size: cover;
+    color: azure;
+}
+#title{
+    position:relative;
+    top: 5em;
+    font-size: 3em ;
+    text-align: center;
+    text-shadow: 0px 2px 10px black;
+}
+#space{
+    margin-bottom: 30em;
+}
+#about-city {
+    position:relative;
+    bottom: 1em;
+    font-size: 2em ;
+    text-align: center;
+    text-shadow: 0px 2px 10px black;
+}
+.places{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.img1{
+    width: 200px;
+    border-radius: 100px;
+}
+.place1{
+    text-align: center;
+    display: inline;
+}
+
+.img2{
+    width: 200px;
+    border-radius: 100px;
+}
+.place2{
+    text-align: center;
+    display: inline;
+}
+.img3{
+    width: 200px;
+    border-radius: 100px;
+}
+.place3{
+    text-align: center;
+    display: inline;
+}
+.middleTitle{
+    text-align: center;
+}
+.middle{
+    background: url('mid.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card{
+    margin-top: 50px;
+    padding: 20px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: beige;
+    border-radius: 20px;
+    border-bottom: 5px solid brown;
+}
+.image{
+    width: 150px;
+    border-radius: 30px;
+}
+
+.content{
+    padding: 10px;
+    text-align: center;
+}
+
+
